@@ -1,0 +1,17 @@
+:root {
+    --primary-color: rgb(0, 255, 255);
+    --primary-background-color: rgb(4, 80, 52);
+}
+#button {
+    color: var(--primary-color);
+    background-color:var(--primary-background-color);
+    padding: 1.2em;
+    border-radius: 7px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    user-select: none;
+    cursor: pointer;
+    transition: left 100ms, top 100ms; /* we can also write transition: all 100ms; */
+    font-weight: bold;
+}
